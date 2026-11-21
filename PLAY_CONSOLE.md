@@ -4,7 +4,7 @@
 
 プライバシーポリシー URL（この URL を Play Console に入れる）:
 
-https://shigeki7299.github.io/rf-design-studio-privacy/
+https://shigeki7299.github.io/privacy/
 
 ## アプリから確定している事実
 
@@ -60,7 +60,7 @@ RF Design Studio は、ATAK CIV の地図上にあるマーカーを無線局ま
 
 データ
 開発者のサーバへ個人情報は送りません。広告、解析、アカウント、アプリ内課金はありません。
-プライバシーポリシー: https://shigeki7299.github.io/rf-design-studio-privacy/
+プライバシーポリシー: https://shigeki7299.github.io/privacy/
 
 計算は ITU-R P.525 / P.526 / P.452 を参考にしたモデルであり、勧告そのものの厳密な再現ではありません。
 ```
@@ -72,7 +72,7 @@ RF Design Studio は、ATAK CIV の地図上にあるマーカーを無線局ま
 | デフォルトの言語 | 日本語 |
 | カテゴリ | ツール |
 | メール | shigeki7299@gmail.com |
-| ウェブサイト | https://shigeki7299.github.io/rf-design-studio-privacy/ |
+| ウェブサイト | https://shigeki7299.github.io/privacy/ |
 | 電話番号 | 任意。未設定でよい |
 | 広告を含む | いいえ |
 | アプリ内課金 | なし |
@@ -82,7 +82,7 @@ RF Design Studio は、ATAK CIV の地図上にあるマーカーを無線局ま
 
 | 宣言 | 回答 |
 |------|------|
-| プライバシー ポリシー | https://shigeki7299.github.io/rf-design-studio-privacy/ |
+| プライバシー ポリシー | https://shigeki7299.github.io/privacy/ |
 | 広告 | いいえ |
 | 広告 ID | 使用しない |
 | アプリのアクセス権 | ログイン不要。審査メモに ATAK CIV の導入手順を書く |

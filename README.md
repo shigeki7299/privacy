@@ -6,8 +6,8 @@ Google Play のストア掲載に使うプライバシーポリシーです。
 
 | アプリ | Play Console に入れる URL |
 |--------|---------------------------|
-| RF Design Studio | https://shigeki7299.github.io/rf-design-studio-privacy/ |
-| LineChecker | https://shigeki7299.github.io/rf-design-studio-privacy/linechecker/ |
-| TAK PushToTalk | https://shigeki7299.github.io/rf-design-studio-privacy/pushtotalk/ |
+| RF Design Studio | https://shigeki7299.github.io/privacy/ |
+| LineChecker | https://shigeki7299.github.io/privacy/linechecker/ |
+| TAK PushToTalk | https://shigeki7299.github.io/privacy/pushtotalk/ |
 
 公開手続きメモ（RF Design Studio）: [PLAY_CONSOLE.md](PLAY_CONSOLE.md)
