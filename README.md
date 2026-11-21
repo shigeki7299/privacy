@@ -1,10 +1,13 @@
-# RF Design Studio — Privacy Policy
+# Privacy policies
 
-Google Play のストア掲載に使う、RF Design Studio のプライバシーポリシーです。
+Google Play のストア掲載に使うプライバシーポリシーです。
 
-| 文書 | URL |
-|------|-----|
-| プライバシーポリシー（Play Console に入れる URL） | https://shigeki7299.github.io/rf-design-studio-privacy/ |
-| 公開手続きメモ | [PLAY_CONSOLE.md](PLAY_CONSOLE.md) |
+各アプリのデータの扱いが違うため、ページはアプリごとに分け、開発者名と連絡先は共通です。Play Console には、そのアプリのページ URL を入れてください。
 
-Play Console の「プライバシー ポリシー」欄には、上の GitHub Pages の URL を入れてください。リポジトリのファイル画面ではなく、このページを使います。
+| アプリ | Play Console に入れる URL |
+|--------|---------------------------|
+| RF Design Studio | https://shigeki7299.github.io/rf-design-studio-privacy/ |
+| LineChecker | https://shigeki7299.github.io/rf-design-studio-privacy/linechecker/ |
+| TAK PushToTalk | https://shigeki7299.github.io/rf-design-studio-privacy/pushtotalk/ |
+
+公開手続きメモ（RF Design Studio）: [PLAY_CONSOLE.md](PLAY_CONSOLE.md)

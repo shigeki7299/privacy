@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー / Privacy Policy | TAK PushToTalk</title>
+  <meta name="description" content="TAK PushToTalk のプライバシーポリシー。Privacy Policy for TAK PushToTalk.">
+  <link rel="canonical" href="https://shigeki7299.github.io/rf-design-studio-privacy/pushtotalk/">
+  <style>
+    :root { color-scheme: light dark; --text: #1c1b19; --muted: #5c574e; --line: #e4dfd6; --bg: #faf8f5; --card: #ffffff; --accent: #1f4b3a; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #f3efe6; --muted: #c2baad; --line: #3a3834; --bg: #161513; --card: #211f1c; --accent: #8fceb0; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.75; color: var(--text); background: var(--bg); }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
+    h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 0.35rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+    p, li { font-size: 1rem; }
+    ul { padding-left: 1.2rem; }
+    .meta, .lang { color: var(--muted); font-size: 0.92rem; }
+    a { color: var(--accent); }
+    section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.25rem 1.25rem 1.25rem; margin-top: 1.5rem; }
+    .en { margin-top: 3rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="lang"><a href="#ja">日本語</a> · <a href="#en">English</a><br>
+      <a href="../">RF Design Studio</a> · <a href="../linechecker/">LineChecker</a> · <a href="./">TAK PushToTalk</a></p>
+    <h1 id="ja">プライバシーポリシー</h1>
+    <p class="meta">TAK PushToTalk<br>最終更新日: 2026年11月21日</p>
+  </header>
+
+  <section>
+    <h2>1. このポリシーの対象</h2>
+    <p>このプライバシーポリシーは、Morita Shigeki（以下「開発者」）が提供する Android アプリ「TAK PushToTalk」（パッケージ名 <code>com.infinity.takptt</code>）に適用されます。</p>
+    <p>本アプリは、PTT ボタン、音量キー、対応する Bluetooth 機器、または音声検出でマイクを開き、同じネットワーク上の相手へ音声を送るためのツールです。TAK Product Center および Google の公式アプリではありません。</p>
+  </section>
+
+  <section>
+    <h2>2. 開発者</h2>
+    <ul>
+      <li>氏名: Morita Shigeki</li>
+      <li>連絡先: <a href="mailto:shigeki7299@gmail.com">shigeki7299@gmail.com</a></li>
+    </ul>
+    <p>プライバシーに関する問い合わせは、上記メールアドレスで受け付けます。開発者は音声を受けるサーバを運営せず、広告 SDK、解析 SDK、アカウント機能はありません。</p>
+  </section>
+
+  <section>
+    <h2>3. マイクの音声</h2>
+    <p>利用者が送信を開始している間、または音声検出を有効にしている間、本アプリはマイクの音声をメモリ上で符号化します。符号化された音声は、利用者が選んだ送信方法で同じネットワークの相手へ送られます。</p>
+    <ul>
+      <li>マルチキャスト送信は、パケットの到達範囲をローカルネットワーク内に制限します</li>
+      <li>ユニキャスト送信は、利用者が設定した宛先へ送られます</li>
+    </ul>
+    <p>開発者はその音声を受信せず、保管しません。音声ファイルとして開発者へアップロードする機能はありません。</p>
+  </section>
+
+  <section>
+    <h2>4. 端末内に保存する情報</h2>
+    <ul>
+      <li>チャンネル、PTT の操作、音量キーの使用、ユニキャストの宛先などのアプリ設定</li>
+      <li>コールサイン。利用者が有効にした場合は、ダウンロードフォルダの <code>ATAK_Preference.xml</code> から読み取ります。受信したコールサインも端末内の一覧に追加できます</li>
+      <li>Mumble のサーバアドレス、ポート、ユーザー名、パスワード、ルーム名。これらは端末内のアプリ設定に保存されます</li>
+      <li>利用者が接続した Bluetooth ヘッドセットまたは PTT ボタンを識別するための情報</li>
+    </ul>
+    <p>現在の版は、保存した Mumble のパスワードと音声を Mumble サーバへ送信しません。Mumble への実際の接続を加える場合は、送信を始める前にこのページを更新します。</p>
+  </section>
+
+  <section>
+    <h2>5. ユーザー補助と画面上のボタン</h2>
+    <p>バックグラウンドで音量キーや PTT 操作を受け取るため、ユーザー補助サービスを使います。このサービスは画面上の文字、通知、他のアプリの内容を読み取りません。フローティングボタンは送信操作の表示であり、画面の内容を収集しません。</p>
+  </section>
+
+  <section>
+    <h2>6. 保存期間と削除</h2>
+    <p>設定、コールサイン、Mumble の入力内容は、利用者がアプリ内で消すか、アプリのデータを消去するか、アンインストールするまで端末内に残ります。開発者は写しを持たないため、削除請求には、開発者側にデータがない旨を回答します。請求先は第2項のメールです。</p>
+  </section>
+
+  <section>
+    <h2>7. 子ども</h2>
+    <p>本アプリは子どもを対象にしていません。想定する利用者は 18 歳以上です。</p>
+  </section>
+
+  <section>
+    <h2>8. 変更</h2>
+    <p>本ポリシーを変更するときは、このページの内容と最終更新日を更新します。変更後のポリシーは、このページに掲載したときから適用されます。</p>
+  </section>
+
+  <section class="en" lang="en">
+    <h1 id="en">Privacy Policy</h1>
+    <p class="lang"><a href="#ja">日本語</a> · <a href="#en">English</a></p>
+    <p class="meta">TAK PushToTalk<br>Last updated: 21 November 2026</p>
+
+    <h2>1. Scope</h2>
+    <p>This privacy policy applies to the Android app “TAK PushToTalk” (package <code>com.infinity.takptt</code>) provided by Morita Shigeki (“developer”). The app opens the microphone from a PTT control, the volume keys, a supported Bluetooth device, or voice detection, and sends voice to peers on the same network. It is not an official TAK Product Center or Google app.</p>
+
+    <h2>2. Developer</h2>
+    <ul>
+      <li>Name: Morita Shigeki</li>
+      <li>Contact: <a href="mailto:shigeki7299@gmail.com">shigeki7299@gmail.com</a></li>
+    </ul>
+    <p>Privacy questions can be sent to that address. The developer does not operate a server that receives the voice, and the app has no advertising SDK, analytics SDK, or account system.</p>
+
+    <h2>3. Microphone audio</h2>
+    <p>While the user is transmitting, or while voice detection is enabled, the app encodes microphone audio in memory. The encoded audio is sent to peers on the same network by the method the user selected.</p>
+    <ul>
+      <li>Multicast packets are limited to the local network</li>
+      <li>Unicast packets are sent to the destination the user configured</li>
+    </ul>
+    <p>The developer does not receive or store that audio. The app has no feature that uploads a voice file to the developer.</p>
+
+    <h2>4. Data stored on the device</h2>
+    <ul>
+      <li>App settings such as channel, PTT behavior, volume-key transmit, and unicast destinations</li>
+      <li>Callsigns. If the user enables it, the app reads a callsign from <code>ATAK_Preference.xml</code> in the Downloads folder. Callsigns received on the network can be added to a list on the device</li>
+      <li>Mumble server address, port, username, password, and room names, saved in the app’s settings on the device</li>
+      <li>Information needed to identify a Bluetooth headset or PTT button the user connects</li>
+    </ul>
+    <p>The current version does not send the saved Mumble password or voice to a Mumble server. If a real Mumble connection is added, this page will be updated before that transmission starts.</p>
+
+    <h2>5. Accessibility and the on-screen control</h2>
+    <p>An accessibility service receives volume keys and PTT actions while the app is in the background. The service does not read on-screen text, notifications, or the contents of other apps. The floating button shows the transmit control and does not collect what is on the screen.</p>
+
+    <h2>6. Retention and deletion</h2>
+    <p>Settings, callsigns, and Mumble entries remain on the device until the user deletes them, clears the app’s data, or uninstalls it. The developer keeps no copy, so a deletion request receives a reply that the developer holds no data. Requests go to the email in section 2.</p>
+
+    <h2>7. Children</h2>
+    <p>The app is not directed at children. It is intended for users aged 18 and over.</p>
+
+    <h2>8. Changes</h2>
+    <p>Updates to this policy are posted on this page with a new “Last updated” date and apply from the time they are posted.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー / Privacy Policy | LineChecker</title>
+  <meta name="description" content="LineChecker のプライバシーポリシー。Privacy Policy for LineChecker.">
+  <link rel="canonical" href="https://shigeki7299.github.io/rf-design-studio-privacy/linechecker/">
+  <style>
+    :root { color-scheme: light dark; --text: #1c1b19; --muted: #5c574e; --line: #e4dfd6; --bg: #faf8f5; --card: #ffffff; --accent: #1f4b3a; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #f3efe6; --muted: #c2baad; --line: #3a3834; --bg: #161513; --card: #211f1c; --accent: #8fceb0; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.75; color: var(--text); background: var(--bg); }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
+    h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 0.35rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+    p, li { font-size: 1rem; }
+    ul { padding-left: 1.2rem; }
+    .meta, .lang { color: var(--muted); font-size: 0.92rem; }
+    a { color: var(--accent); }
+    section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.25rem 1.25rem 1.25rem; margin-top: 1.5rem; }
+    .en { margin-top: 3rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="lang"><a href="#ja">日本語</a> · <a href="#en">English</a><br>
+      <a href="../">RF Design Studio</a> · <a href="./">LineChecker</a> · <a href="../pushtotalk/">TAK PushToTalk</a></p>
+    <h1 id="ja">プライバシーポリシー</h1>
+    <p class="meta">LineChecker<br>最終更新日: 2026年11月21日</p>
+  </header>
+
+  <section>
+    <h2>1. このポリシーの対象</h2>
+    <p>このプライバシーポリシーは、Morita Shigeki（以下「開発者」）が提供する Android アプリ「LineChecker」（パッケージ名 <code>com.infinityengine.linechecker</code>）に適用されます。</p>
+    <p>本アプリは、利用者が指定した相手との回線測定、通信アダプタの状態表示、同一 LAN 内の端末表示、USB シリアル通信を行うツールです。</p>
+  </section>
+
+  <section>
+    <h2>2. 開発者</h2>
+    <ul>
+      <li>氏名: Morita Shigeki</li>
+      <li>連絡先: <a href="mailto:shigeki7299@gmail.com">shigeki7299@gmail.com</a></li>
+    </ul>
+    <p>プライバシーに関する問い合わせは、上記メールアドレスで受け付けます。</p>
+  </section>
+
+  <section>
+    <h2>3. 端末上で扱う情報</h2>
+    <p>測定と表示のため、本アプリは次の情報をその端末の中で読み書きします。開発者のサーバへは送りません。</p>
+    <ul>
+      <li>利用者が入力した測定先ホスト、ポート、測定時間</li>
+      <li>この端末の IP アドレス、Wi-Fi のネットワーク名（SSID）、アクセスポイント識別子（BSSID）、電波強度、周波数、リンク速度</li>
+      <li>携帯電話網の事業者名、通信世代（5G、LTE など）、データ通信のオン／オフ、SIM の有無。電話番号と IMEI は読みません</li>
+      <li>Bluetooth アダプタの名前とオン／オフ、Ethernet と VPN の有無と IP アドレス</li>
+      <li>LAN スキャンで見つかった機器の IP アドレス、MAC アドレス、メーカー名（端末内の一覧で照合）、応答の種類</li>
+      <li>USB シリアルの通信設定と、利用者が接続した機器との送受信内容</li>
+    </ul>
+    <p>位置情報の権限は、Android が Wi-Fi のネットワーク名と BSSID の表示に求めるため使います。GPS の移動履歴は記録しません。LAN スキャンの結果は画面表示用で、測定設定とシリアル設定だけを端末内に保存します。Android のバックアップが有効なため、その設定が利用者の Google アカウントのバックアップに含まれることがあります。開発者はそのバックアップを受け取りません。</p>
+  </section>
+
+  <section>
+    <h2>4. 端末の外へ出る通信</h2>
+    <ul>
+      <li>スループット測定の試験通信は、利用者が入力したホストとポートへ送られます</li>
+      <li>LAN スキャンの探索パケットは、接続中のローカルネットワーク内に留まります</li>
+      <li>シリアル通信の内容は、利用者が接続した USB 機器との間でやり取りされます</li>
+    </ul>
+    <p>これらは利用者が選んだ相手との通信です。開発者はその内容を受信せず、保管しません。</p>
+  </section>
+
+  <section>
+    <h2>5. 広告</h2>
+    <p>メイン画面に Google AdMob のバナー広告を表示します。広告の配信、効果測定、不正防止のため、Google LLC が広告 ID、IP アドレス、端末情報、広告の操作、おおよその位置情報を処理することがあります。開発者はこの情報を販売しません。</p>
+    <p>Google の取り扱いは <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> と <a href="https://support.google.com/admob/answer/6128543">AdMob のデータ取り扱い</a> に従います。</p>
+  </section>
+
+  <section>
+    <h2>6. 保存期間と削除</h2>
+    <p>測定先やシリアル設定は、利用者がアプリのデータを消去するか、アプリをアンインストールするまで端末内に残ります。開発者は測定結果、LAN スキャン結果、シリアル通信の写しを持ちません。開示、訂正、削除の請求先は第2項のメールです。開発者が保有する個人データがない場合は、その旨を回答します。広告に関する Google 側のデータは、Google の手続きに従います。</p>
+  </section>
+
+  <section>
+    <h2>7. 子ども</h2>
+    <p>本アプリは子どもを対象にしていません。広告を含むため、子ども向けサービスとしては提供しません。想定する利用者は 18 歳以上です。</p>
+  </section>
+
+  <section>
+    <h2>8. 変更</h2>
+    <p>本ポリシーを変更するときは、このページの内容と最終更新日を更新します。変更後のポリシーは、このページに掲載したときから適用されます。</p>
+  </section>
+
+  <section class="en" lang="en">
+    <h1 id="en">Privacy Policy</h1>
+    <p class="lang"><a href="#ja">日本語</a> · <a href="#en">English</a></p>
+    <p class="meta">LineChecker<br>Last updated: 21 November 2026</p>
+
+    <h2>1. Scope</h2>
+    <p>This privacy policy applies to the Android app “LineChecker” (package <code>com.infinityengine.linechecker</code>) provided by Morita Shigeki (“developer”). The app measures a link to a host the user enters, shows adapter status, lists devices on the same LAN, and provides a USB serial terminal.</p>
+
+    <h2>2. Developer</h2>
+    <ul>
+      <li>Name: Morita Shigeki</li>
+      <li>Contact: <a href="mailto:shigeki7299@gmail.com">shigeki7299@gmail.com</a></li>
+    </ul>
+    <p>Privacy questions can be sent to that address.</p>
+
+    <h2>3. Data handled on the device</h2>
+    <p>For measurement and display, the app reads and writes the following on that device. It does not send this data to a server operated by the developer.</p>
+    <ul>
+      <li>The host, port, and duration the user enters</li>
+      <li>This device’s IP address, Wi-Fi SSID, BSSID, signal strength, frequency, and link speed</li>
+      <li>Mobile operator name, network generation (such as 5G or LTE), whether mobile data is on, and whether a SIM is present. The app does not read the phone number or IMEI</li>
+      <li>Bluetooth adapter name and on/off state, and Ethernet or VPN presence and IP address</li>
+      <li>IP address, MAC address, vendor name from a list stored in the app, and response type for devices found by a LAN scan</li>
+      <li>USB serial settings and the bytes exchanged with the device the user connects</li>
+    </ul>
+    <p>The location permission is used because Android requires it to display the Wi-Fi name and BSSID. The app does not record a GPS track. LAN scan results are shown on screen. The app saves measurement and serial settings on the device. Android backup is enabled, so those settings may be included in the user’s Google account backup. The developer does not receive that backup.</p>
+
+    <h2>4. Data that leaves the device</h2>
+    <ul>
+      <li>Throughput test traffic is sent to the host and port the user enters</li>
+      <li>LAN scan packets stay on the local network the device is connected to</li>
+      <li>Serial data is exchanged with the USB device the user connects</li>
+    </ul>
+    <p>These transfers go to a destination the user chooses. The developer does not receive or store them.</p>
+
+    <h2>5. Advertising</h2>
+    <p>The main screen shows a Google AdMob banner. For ad delivery, measurement, and fraud prevention, Google LLC may process the advertising ID, IP address, device information, ad interactions, and approximate location. The developer does not sell this information.</p>
+    <p>Google’s handling is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543">AdMob data disclosure</a>.</p>
+
+    <h2>6. Retention and deletion</h2>
+    <p>Measurement and serial settings remain on the device until the user clears the app’s data or uninstalls it. The developer keeps no copy of test results, LAN scan results, or serial traffic. Requests for access, correction, or deletion can be sent to the email in section 2. If the developer holds no personal data, the reply will say so. Data held by Google for advertising follows Google’s own process.</p>
+
+    <h2>7. Children</h2>
+    <p>The app is not directed at children. Because it shows ads, it is not offered as a child-directed service. It is intended for users aged 18 and over.</p>
+
+    <h2>8. Changes</h2>
+    <p>Updates to this policy are posted on this page with a new “Last updated” date and apply from the time they are posted.</p>
+  </section>
+</main>
+</body>
+</html>
