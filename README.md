@@ -9,5 +9,6 @@ Google Play のストア掲載に使うプライバシーポリシーです。
 | RF Design Studio | https://shigeki7299.github.io/privacy/ |
 | LineChecker | https://shigeki7299.github.io/privacy/linechecker/ |
 | TAK PushToTalk | https://shigeki7299.github.io/privacy/pushtotalk/ |
+| 組手タイマ | https://shigeki7299.github.io/privacy/kumitetimer/ |
 
 公開手続きメモ（RF Design Studio）: [PLAY_CONSOLE.md](PLAY_CONSOLE.md)
